@@ -1,0 +1,4 @@
+<p>Name: {{ product.name }}</p>
+<p>Price: {{ product.price }}</p>
+<p>Price After Discount: {{ applyDiscount().toFixed(2) }}</p>
+<p>{{ product.inStock > 0 ? 'inStock: ' + product.inStock : 'Not Avaliable Now' }}</p>
